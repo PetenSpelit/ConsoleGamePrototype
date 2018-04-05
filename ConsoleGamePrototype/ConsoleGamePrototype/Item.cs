@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleGamePrototype
 {
-    class Item
+    class Item : GameObject
     {
         private String itemName;
         private int score;

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleGamePrototype
 {
-    class BoogieMan
+    class BoogieMan : GameObject
     {
     }
 }
