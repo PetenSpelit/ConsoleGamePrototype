@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleGamePrototype
 {
-    class Player
+    class Player : GameObject
     {
         private List<Item> inventory;
         private String name;
@@ -23,6 +23,19 @@ namespace ConsoleGamePrototype
         {
             get { return inventory; }
             set { }
+        }
+        public void CheckInventory()
+        {
+            foreach (Item name in inventory)
+            {
+                String temp = name.ItemName;
+                Console.Write(temp + " power: ");
+                foreach (Item score in inventory)
+                {
+                    temp = score.ItemScore;
+                    Console.WriteLine(temp);
+                }
+            }
         }
     }
 }

@@ -6,7 +6,7 @@ namespace ConsoleGamePrototype
     {
         static void Main(string[] args)
         {
-            GameController ohjain = new GameController();
+            MenuController ohjain = new MenuController();
             ohjain.Start();
 
         }
